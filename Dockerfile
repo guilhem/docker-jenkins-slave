@@ -1,4 +1,4 @@
-FROM guilhem/ubuntu-vagrant
+FROM guilhem/vagrant-ubuntu
 MAINTAINER Guilhem Lettron "guilhem@lettron.fr"
 
 RUN apt-get update
