@@ -1,4 +1,4 @@
-FROM guilhem/vagrant-ubuntu
+FROM guilhem/vagrant-ubuntu:14.04
 MAINTAINER Guilhem Lettron "guilhem@lettron.fr"
 
 RUN apt-get update && apt-get install -y default-jdk && apt-get clean
